@@ -4,40 +4,50 @@
     <meta charset="utf-8">
     <title>Favoredonline Simple Calculator</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/function.js">
 
-    </script>
   </head>
   <body>
-    <div class="calculator">
-      <input type="text" name="" value="Welcome to Favoredonline Calculator" class="display-screen" disabled>
+
+    <div class="container">
+      <div class="calculator-top">
+
+      </div>
+      <div class="result">
+        <div class="history">
+          <p class="history-value"></p>
+        </div>
+        <div class="output">
+          <p class="output-value"></p>
+        </div>
+      </div>
+
 
       <div class="calculator-buttons">
-        <button class="clear" type="button" name="button" value="clear">C</button>
-        <button class="clear-all" type="button" name="button" value="clear all">AC</button>
-        <button class="operators" type="button" name="button" value="percent">%</button>
-        <button class="operators" type="button" value="plus">+</button>
+        <button class="operators clear" type="button" name="button" value="C">C</button>
+        <button class="operators clear-all" type="button" name="button" value="AC">AC</button>
+        <button class="operators" type="button" name="button" value="%">%</button>
+        <button class="operators" type="button" value="+">+</button>
 
-        <button class="operands" type="button" value="seven">7</button>
-        <button class="operands" type="button" value="eight">8</button>
-        <button class="operands" type="button" value="nine">9</button>
-        <button class="operators" type="button" value="multiply">x</button>
+        <button class="operands" type="button" value="7">7</button>
+        <button class="operands" type="button" value="8">8</button>
+        <button class="operands" type="button" value="9">9</button>
+        <button class="operators" type="button" value="*">&times;</button>
 
-        <button class="operands" type="button" value="four">4</button>
-        <button class="operands" type="button" value="five">5</button>
-        <button class="operands" type="button" value="six">6</button>
-        <button class="operators" type="button" value="minus">-</button>
-
-
-        <button class="operands" type="button" value="one">1</button>
-        <button class="operands" type="button" value="two">2</button>
-        <button class="operands" type="button" value="three">3</button>
-          <button type="button" class="equal-sign" value="equals">=</button>
+        <button class="operands" type="button" value="4">4</button>
+        <button class="operands" type="button" value="5">5</button>
+        <button class="operands" type="button" value="6">6</button>
+        <button class="operators" type="button" value="-">-</button>
 
 
-        <button class="decimal" type="button" value="decimal">.</button>
-        <button class="operands" type="button" value="zero">0</button>
-        <button class="operators" type="button" value="divide">/</button>
+        <button class="operands" type="button" value="1">1</button>
+        <button class="operands" type="button" value="2">2</button>
+        <button class="operands" type="button" value="3">3</button>
+        <button class="operators equal-sign" type="button" value="=">=</button>
+
+
+        <button class="operands" type="button" value=".">.</button>
+        <button class="operands" type="button" value="0">0</button>
+        <button class="operators" type="button" value="/">/</button>
 
 
 
@@ -45,5 +55,8 @@
       </div>
 
     </div>
+
+
+    <script src="js/index.js" charset="utf-8"></script>
   </body>
 </html>
